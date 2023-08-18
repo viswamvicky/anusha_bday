@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        body
+{
+  background-image: linear-gradient(to right bottom, #000000, #9b95ef, #235d9a, #62e4eb, #62e4eb);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+	 position: relative;
+	 width: 300px;
+	 height: 425px;
+	 /* border: 10px solid #974242; */
+	 margin: 60px auto 0 auto;
+	 box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, rgb(172, 223, 139), rgba(255, 255, 255, 0.5)), url("urmi.jpg\ \(1\).jpg");
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+	 background-color: #e6f0e6;
+}
+ .card .text-container {
+	 width: 80%;
+	 height: 80%;
+	 margin: auto;
+}
+ .strikethrough {
+	 text-decoration: line-through;
+}
+ .card .text-container #head {
+	 font-family: 'Nobile', sans-serif;
+	 font-size: 1.5em;
+	 margin: 60px auto 60px auto;
+}
+ .card p {
+	 font-size: 1.1em;
+	 line-height: 1.4;
+	 font-family: 'Nobile';
+	 color: #331717;
+	 font-style: italic;
+	 text-align: center;
+	 margin: 30px auto 0px auto;
+}
+ .card .front {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 margin: -10px 0px 0px -10px;
+	 border: 10px solid white;
+	 backface-visibility: hidden;
+	 background-color: #9612eb;
+	/* background-image: url($cover-image);
+	 */
+	 background-size: contain;
+	 transform-style: preserve-3d;
+	 transform-origin: 0% 50%;
+	 transform: perspective(800px) rotateY(0deg);
+	 transition: all 0.8s ease-in-out;
+}
+ .card:hover .front {
+	 transform: perspective(800px) rotateY(-170deg);
+	 background-color: #41718d;
+}
+ .card:hover .back {
+	 transform: perspective(800px) rotateY(-170deg);
+	 box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	 background-color: #d2dcd2;
+}
+ .card .back {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 /* border: 10px solid #4151df; */
+	 margin: -10px 0px 0px -10px;
+	 backface-visibility: visible;
+	 filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+	 transform-style: preserve-3d;
+	 transform-origin: 0% 50%;
+	 transform: perspective(800px) rotateY(0deg);
+	 transition: all 0.8s ease-in-out;
+	 background-color: #e6f0e6;
+	 box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imgset
+{
+  position: relative;
+  z-index: 1;
+  margin-bottom: -215px;
+}
+.imgset img
+{
+    box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
+
+.nh{
+    text-align: center;
+    color: white;
+    
+}
+    </style>
+</head>
+<body>
+    <body>
+    <div class="card">
+      <div class="back"></div>
+      <div class="front">
+        <div class="imgset">
+             <img width="98%" src="https://images.greetingsisland.com/images/cards/birthday/previews/painterly-shapes_2.png?auto=format,compress&w=280">
+           </div>
+      </div>
+      <div class="text-container">
+        <!-- <p id="head">ℍ𝕒𝕡𝕡𝕪 𝔹𝕚𝕣𝕥𝕙𝕕𝕒𝕪 𝓤𝓻𝓶𝓲𝓵𝓪 𝓜𝓸𝓷𝓭𝓪𝓵 𝓜𝓲𝓽𝓾!</p> -->
+        <br></br>
+        <p>"Happy Birthday to the sister of my heart! You've brought so much love, laughter, and joy into my life. May your special day be as wonderful as you are, and may this year bring you all the happiness you deserve. Cheers to many more adventures and unforgettable memories together!"</p>
+        <p>Hope your day goes great!</p>
+      </div>
+    </div>
+      <div class="card">
+      <div class="back"></div>
+      <div class="front">
+        <div class="imgset">
+             <img width="100%" src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png">
+           </div>
+      </div>
+      <div class="text-container">
+        <!-- <p id="head">ℍ𝕒𝕡𝕡𝕪 𝔹𝕚𝕣𝕥𝕙𝕕𝕒𝕪 </p> -->
+        <img src="page1.jpg" alt="" style="align-items: center; border-radius: 40px; width: 100%; height: 100%; padding-top: 10px;">
+        <p>May all your dreams come true</p>
+      </div>
+    </div>
+      <div class="card">
+      <div class="back"></div>
+      <div class="front">
+        <div class="imgset">
+             <img width="100%" src="https://1.bp.blogspot.com/-Mgj9-rbs65E/XfMoPSD5gtI/AAAAAAAAURk/NBokE2gSS2cTSJ2em5lZ5hJDuTtRN7UVwCLcBGAsYHQ/s1600/2713997.png">
+           </div>
+      </div>
+      <div class="text-container">
+        <br></br>
+        <p id="head">ℍ𝕒𝕡𝕡𝕪 𝔹𝕚𝕣𝕥𝕙𝕕𝕒𝕪 ANUSHA</p>
+        <p>"Friendship is the thread that stitches hearts together. You're not just a friend; you're the sister my heart chose."!</p>
+        
+      </div>
+    </div>
+    <div class="nh">
+       
+    </div>
+    </body>
+</body>
+</html>
